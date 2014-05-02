@@ -6,12 +6,12 @@ angular.module('WowApp.controllers', [])
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
+    { title: 'Pete', id: 1 },
+    { title: 'Jim', id: 2 },
+    { title: 'Dan', id: 3 },
+    { title: 'Eddy', id: 4 },
+    { title: 'Shaun', id: 5 },
+    { title: 'Fred', id: 6 }
   ];
 })
 

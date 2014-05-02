@@ -26,6 +26,14 @@ angular.module('WowApp', ['ionic', 'WowApp.controllers'])
       controller: 'AppCtrl'
     })
 
+    .state('app.home', {
+      url: '/home',
+      views: {
+        'menuContent' :{
+          templateUrl: 'templates/home.html'
+        }
+      }
+    })
     .state('app.search', {
       url: '/search',
       views: {
